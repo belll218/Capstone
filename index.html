@@ -9,16 +9,30 @@
     </head>
 
     </body>
-    <div class="sidebar" style="display:none"></div>
+    <div class="sidebar" style="display:none">
+        <button class="sidebar" id="menu" onclick="close()">&times;</button>
+    </div>
 
-    <div>
-        <button id="openNav" onclick="open()">&#9776;</button>
+    <div id="page">
+        <div>
+            <h1>CONTENT</h1>
+            <button id="openNav" onclick="open()">&#9776;</button>
+        </div>
     </div>
 
     <script>
         function open() {
-            document.getElementById.
-        })
+            document.getElementById("page").style.marginLeft = "25%";
+            document.getElementById("menu").style.width = "25%";
+            document.getElementById("menu").style.width = "block";
+            document.getElementById("openNav").style.display = "none";
+        }
+
+        function close() {
+            document.getElementById("page").style.marginLeft = "0%";
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("openNav").style.display = "inline-block";
+        }
     </script>
     </body>
 </html>
