@@ -8,27 +8,27 @@
         <title>This is the Title</title>
     </head>
 
-    </body>
-    <div class="sidebar" style="display:none">
-        <button class="sidebar" id="menu" onclick="close()">&times;</button>
+    <body>
+    <div class="sidebar" id="menu" style="display:none">
+        <button class="sidebar" id="menu" onclick="closeNav()">&times;</button>
     </div>
 
     <div id="page">
         <div>
-            <button id="openNav" onclick="open()">&#9776;</button>
+            <button id="openNav" onclick="openNav()">&#9776;</button>
             <h1 class="text">CONTENT</h1>
         </div>
     </div>
 
     <script>
-        function open() {
+        function openNav() {
             document.getElementById("page").style.marginLeft = "25%";
             document.getElementById("menu").style.width = "25%";
-            document.getElementById("menu").style.width = "block";
+            document.getElementById("menu").style.display = "block";
             document.getElementById("openNav").style.display = "none";
         }
 
-        function close() {
+        function closeNav() {
             document.getElementById("page").style.marginLeft = "0%";
             document.getElementById("menu").style.display = "none";
             document.getElementById("openNav").style.display = "inline-block";
