@@ -5,3 +5,7 @@ body {
 .text {
     text-align: center;
 }
+
+.sidebar {
+    background-color:cornflowerblue;
+}
