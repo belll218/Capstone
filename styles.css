@@ -12,6 +12,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    width: 0;
+    height: 100vh;
     overflow-x: hidden;
-    transition: 0.3s;
+    transition: width 0.3s ease;
 }
