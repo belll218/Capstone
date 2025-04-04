@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet">
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script src="script.js"></script>
         <title>This is the Title</title>
     </head>
 
@@ -16,14 +18,19 @@
 
     <div id="page">
         <div>
-            <button id="openNav" onclick="openNav()">&#9776;</button>
+            <button id="openNav" onclick="openNav()"><i data-lucide="cat"></i></button>
             <h1 class="text">CONTENT</h1>
+            <div>
+                <button type="button" id="nextPage">Try Chatting</button>
+            </div>
         </div>
 
     <button type="button"></button>
     </div>
 
     <script>
+        lucide.createIcons();
+        
         function openNav() {
             document.getElementById("menu").style.width = "25%";
             document.getElementById("menu").style.display = "block";
@@ -36,5 +43,9 @@
             document.getElementById("openNav").style.display = "inline-block";
         }
     </script>
+
+    <div class="footer">
+        Copyright Â© Belina's Portfolio 2025
+    </div>
     </body>
 </html>
