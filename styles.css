@@ -22,7 +22,7 @@ padding: 0px;
 background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
-font-family: "Arizona", cursive;
+font-family: "Great Vibes", cursive;
 font-weight: normal;
 font-style: normal;
 text-shadow: 4px 4px 4px #B8B8B8;
@@ -67,7 +67,6 @@ cursor: pointer;
   position: fixed;
   bottom: 0;
   width: 100%;
-  text-align: center;
   justify-content: center;
   padding: 30px;
   }
