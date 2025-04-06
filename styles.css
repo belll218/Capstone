@@ -1,13 +1,25 @@
+@font-face {
+    font-family: 'Anada Black'; 
+    src: url('AnandaBlackPersonalUseRegular-rg9Rx.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body {
     display: flex;
     flex-direction: column;
     background-color:lightgrey;
-    text-align: center;
     font-family: 'EB Garamond';
 }
 
+h1 {
+  font-size: 50px;
+}
+
 .text {
-    text-align: center;
+    margin-left: 50px;
+    margin-top: 150px
+    text-shadow: 4px 4px 4px #B8B8B8;
 }
 
 .button {
@@ -43,6 +55,7 @@ body {
 
   #openNav i {
     background-color: lightgrey;
+    margin-left: 5px;
     width: 20px;
     height: 20px;
   }
