@@ -22,9 +22,6 @@ padding: 0px;
 background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
-font-family: "Arizonia", cursive;
-font-weight: normal;
-font-style: normal;
 text-shadow: 4px 4px 4px #B8B8B8;
 }
 
@@ -36,7 +33,7 @@ h1 {
 color: black;
 margin-left: 55px;
 margin-top: 120px;
-font-family: "Great Vibes", cursive;
+font-family: "Arizonia", cursive;
 font-weight: normal;
 font-style: normal;
 }
@@ -75,7 +72,6 @@ cursor: pointer;
   position: fixed;
   bottom: 0;
   width: 100%;
-  justify-content: center;
   padding: 30px;
   }
 
