@@ -54,6 +54,7 @@ cursor: pointer;
 }
 
 .footer{
+  font-family: 'Georgia, 'Times New Roman', Times, serif';
   display: flex;
   position: fixed;
   bottom: 0;
