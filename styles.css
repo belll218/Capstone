@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Anada Black'; 
-  src: url('AnandaBlackPersonalUseRegular-rg9Rx.ttf') format('truetype');
+  font-family: 'Renitah'; 
+  src: url('Renitah_1.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
   }
@@ -17,7 +17,7 @@ animation: fadeInPage 1s ease-in-out forwards;
 display: flex;
 flex-direction: column;
 background-color:lightgrey;
-font-family: 'Anada Black';
+font-family: 'Renitah';
 text-shadow: 4px 4px 4px #B8B8B8;
 }
 
