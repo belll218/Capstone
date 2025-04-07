@@ -101,4 +101,6 @@ cursor: pointer;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.85);
   transition: transform 0.3s ease;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100px;
 }
