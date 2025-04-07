@@ -93,3 +93,12 @@ cursor: pointer;
   width: 20px;
   height: 20px;
   }
+
+#question {
+  width: 40%;
+  min-width: 200px;
+  margin: auto;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.85);
+  transition: transform 0.3s ease;
+}
