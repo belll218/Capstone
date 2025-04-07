@@ -16,7 +16,7 @@ opacity: 0;
 animation: fadeInPage 1s ease-in-out forwards;
 display: flex;
 flex-direction: column;
-background-image: url('cherry_blossom.webp');
+background-image: url('Image.jpeg');
 margin: 0px;
 padding: 0px;
 background-size: cover;
@@ -38,14 +38,13 @@ body::before {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 #text {
 color: black;
 margin-left: 55px;
 margin-top: 120px;
-font-family: "MonteCarlo", cursive;
 font-weight: normal;
 font-style: normal;
 }
