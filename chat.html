@@ -14,10 +14,10 @@
 </head>
 <body>
     <h1 style="color: white">Question Solver</h1>
-    <textarea maxlength="100" autocomplete="off" autofocus id="question" placeholder="Please enter your question on math, chemistry, or physics..."></textarea>
+    <input maxlength="100" type="text" autocomplete="off" autofocus id="question" placeholder="Start Chatting"></input>
     <br>
-    <button id="solveButton" class="button">Solve</button>
-    <div id="answer"></div>
+    <button id="solveButton" class="button" onclick="askAI()">Send</button>
+    <div id="response"></div>
 
     <script src="script.js"></script> 
 </body>
