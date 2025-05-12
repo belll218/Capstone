@@ -20,7 +20,7 @@ async function askAI() {
         });
 
         const data = await response.json();
-        console.log(data); // 
+        console.log(data); 
 
         if (data.choices && data.choices.length > 0) {
             document.getElementById('response').innerText = data.choices[0].message.content;
