@@ -1,6 +1,9 @@
 async function askAI() {
     const userMessage = document.getElementById('question').value;
 
+    document.getElementById('loading').style.display = 'block';
+    document.getElementById('response').innerText = '';
+
     try {
         const response = await fetch('https://api.together.xyz/v1/chat/completions', {
             method: 'POST',
@@ -27,5 +30,7 @@ async function askAI() {
     } catch (error) {
         console.error('Error communicating with Together.ai:', error);
         document.getElementById('response').innerText = "Error: Could not get response.";
+    } finally {
+        document.getElementById('loading').style.display = 'none';
     }
 }
