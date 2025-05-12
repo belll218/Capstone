@@ -5,7 +5,7 @@ async function askAI() {
         const response = await fetch('https://api.together.xyz/v1/chat/completions', {
             method: 'POST',
             headers: {
-                'Authorization': 'Bearer YOUR_USER_KEY_HERE', // replace with your key
+                'Authorization': 'Bearer e6682a54390922ad065700d85b558df14d577b9cc24322ab0ea3786fdf231ae8', 
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
@@ -17,7 +17,7 @@ async function askAI() {
         });
 
         const data = await response.json();
-        console.log(data); // 👈 Add this to SEE the whole data structure
+        console.log(data); // 
 
         if (data.choices && data.choices.length > 0) {
             document.getElementById('response').innerText = data.choices[0].message.content;
