@@ -2,7 +2,8 @@ async function askAI() {
     const userMessage = document.getElementById('question').value;
 
     document.getElementById('loading').style.display = 'block';
-    document.getElementById('response').innerText = '';
+    document.getElementById('response').style.display = 'none';
+    //document.getElementById('response').innerText = '';
 
     try {
         const response = await fetch('https://api.together.xyz/v1/chat/completions', {
