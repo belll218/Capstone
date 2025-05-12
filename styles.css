@@ -58,6 +58,7 @@ background-color: silver;
 color: black;
 font-family: 'Open Sans', sans-serif;
 cursor: pointer;
+display: inline-block;
 }
 
 .button:hover {

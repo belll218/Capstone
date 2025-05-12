@@ -9,7 +9,7 @@ async function askAI() {
         'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-        model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free", //Tells Together to use which model
+        model: "meta-llama/Llama-3.3-70B-instruct-turbo", //Tells Together to use which model
         messages: [{"role": "user", "content": userMessage}],
         temperature: 0.7,
         max_tokens: 200
