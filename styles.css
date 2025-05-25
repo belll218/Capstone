@@ -121,6 +121,7 @@ display: inline-block;
   text-shadow: none;
   margin-top: 0px;
   padding: 50px 70px;
+  transition: transform 0.3s ease;
 }
 
   #loading {
@@ -128,4 +129,5 @@ display: inline-block;
     margin-right: auto;
     width: 1500px; 
     text-align: center;
+    animation: fadeInDown 1s ease;
   }
