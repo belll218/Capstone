@@ -1,5 +1,16 @@
 {
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Capstone project performed by Belina Zhu.  Using Javascript, HTML and CSS to create the interactive web user interface and using the Llama-3.3-70B-Instruct-Turbo-Free from Together.ai",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
